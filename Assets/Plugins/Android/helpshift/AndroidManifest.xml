@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.helpshift"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- App receives GCM messages. -->
+  <permission android:name="app.bundle.identifier.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+  <uses-permission android:name="app.bundle.identifier.permission.C2D_MESSAGE" />
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+  <!-- GCM requires a Google account. -->
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <!-- Keeps the processor from sleeping when a message is received. -->
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+    
+    <application>
+        <activity
+            android:name="com.helpshift.support.activities.ParentActivity"
+            android:theme="@style/Helpshift.Theme.Activity" />
+        <activity
+            android:name="com.helpshift.support.HSReview"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Helpshift.Theme.Dialog" />
+
+        <service
+            android:name="com.helpshift.support.HSService"
+            android:label="Helpshift Service" >
+        </service>
+        <service
+            android:name="com.helpshift.support.HSRetryService"
+            android:label="Helpshift Service" >
+        </service>
+        <!--
+        receiver android:name="com.helpshift.supportCampaigns.gcm.HSGcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+        <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <category android:name="<YOUR_APP_BUNDLE_IDENTIFIER>" />
+        </intent-filter>
+        </receiver>
+        <service android:name="com.helpshift.supportCampaigns.gcm.HSGcmIntentService" /
+        -->
+
+    </application>
+
+</manifest>

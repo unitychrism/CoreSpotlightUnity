@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Has valorado el servicio con 1 estrella</item>
+    <item quantity="other">Has valorado el servicio con %d estrellas</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">Nuevo mensaje de apoyo</item>
+    <item quantity="other">%d nuevos mensajes de apoyo</item>
+  </plurals>
+    <string name="hs__app_review_button">RESEÑAR</string>
+    <string name="hs__attach_screenshot_btn">Adjuntar captura de pantalla</string>
+    <string name="hs__attach_screenshot_button">ADJUNTAR</string>
+    <string name="hs__ca_msg">Nos complace ayudar</string>
+    <string name="hs__change_btn">Cambiar</string>
+    <string name="hs__chat_hint">Escriba el mensaje</string>
+    <string name="hs__confirmation_footer_msg">¡Gracias por escribirnos!</string>
+    <string name="hs__confirmation_msg">¿Hemos respondido a todas tus preguntas?</string>
+    <string name="hs__contact_us_btn">CONTÁCTANOS</string>
+    <string name="hs__conversation_detail_error">Describa el problema.</string>
+    <string name="hs__conversation_end_msg">Esta conversación ha terminado.</string>
+    <string name="hs__conversation_header">Conversación</string>
+    <string name="hs__conversation_started_message">
+    Hemos recibido tu mensaje. Gracias por contactarnos.
+  </string>
+    <string name="hs__copy">Copia</string>
+    <string name="hs__could_not_open_attachment_msg">Ninguna aplicación puede realizar esta acción</string>
+    <string name="hs__could_not_reach_support_msg">Imposible contactar con soporte técnico</string>
+    <string name="hs__cr_msg">¿En qué más podemos ayudarte?</string>
+    <string name="hs__csat_additonal_feedback_message">¿Algún otro comentario? (opcional)</string>
+    <string name="hs__csat_dislike_message">Horrible</string>
+    <string name="hs__csat_like_message">Me encantó</string>
+    <string name="hs__csat_message">¿Qué tienes que decir sobre nuestra atención al cliente?</string>
+    <string name="hs__csat_option_message">O</string>
+    <string name="hs__csat_ratingbar">Por favor, valora nuestro servicio</string>
+    <string name="hs__csat_submit_toast">Gracias por su valoración</string>
+    <string name="hs__data_not_found_msg">Datos no encontrados</string>
+    <string name="hs__default_notification_content_title">Ayudar</string>
+    <string name="hs__description_invalid_length_error">
+    Detalle el problema para que podamos mejorar la ayuda que le damos
+  </string>
+    <string name="hs__dm_video_loading">Cargando video…</string>
+    <string name="hs__done_btn">Aceptar</string>
+    <string name="hs__email_hint">Email (opcional)</string>
+    <string name="hs__email_required_hint">Email</string>
+    <string name="hs__empty_section">Disculpe. No hay preguntas disponibles en esta sección.</string>
+    <string name="hs__faq_fetching_fail_message">Ahora mismo no es posible cargar las Preguntas Frecuentes. Por favor, inténtelo más tarde…</string>
+    <string name="hs__faq_header">PF</string>
+    <string name="hs__faqs_search_footer">No FAQs encontrado.</string>
+    <string name="hs__feedback_button">Feedback</string>
+    <string name="hs__fetching_faqs_message">Obteniendo sus respuestas…</string>
+    <string name="hs__file_not_found_msg">No se ha encontrado el archivo</string>
+    <string name="hs__file_type_audio">Audio</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Documento de Office</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Archivo</string>
+    <string name="hs__file_type_video">Vídeo</string>
+    <string name="hs__help_header">Ayuda</string>
+    <string name="hs__image_attachment">Imagen adjunta</string>
+    <string name="hs__image_not_available">Imagen no disponible</string>
+    <string name="hs__invalid_description_error">Descripción no válido</string>
+    <string name="hs__invalid_email_error">Por favor, introduzca un email válido</string>
+    <string name="hs__mark_helpful_toast">Pregunta ha sido marcada como útil</string>
+    <string name="hs__mark_no">NO</string>
+    <string name="hs__mark_unhelpful_toast">Pregunta ha sido marcada como No ha sido útil</string>
+    <string name="hs__mark_yes">Sí</string>
+    <string name="hs__mark_yes_no_question">¿Sirvió de ayuda?</string>
+    <string name="hs__network_error_msg">¡Ups! Algo ha fallado</string>
+    <string name="hs__network_unavailable_msg">La red no está disponible</string>
+    <string name="hs__new_conversation_btn">INICIAR UNA NUEVA CONVERSACIÓN</string>
+    <string name="hs__new_conversation_header">Nueva conversación</string>
+    <string name="hs__new_conversation_hint">¿En qué le podemos ayudar?</string>
+    <string name="hs__no_search_results_message">¡Vaya! No hemos podido encontrar nada para query</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__permission_denied_message">Se requiere permiso de almacenamiento para acceder a las capturas de pantalla y descargar adjuntos</string>
+    <string name="hs__permission_denied_snackbar_action">Ajustes</string>
+    <string name="hs__permission_not_granted">La aplicación no tiene permiso para acceder a sus fotos</string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"> </string>
+    <string name="hs__question_helpful_message">Le resultó útil.</string>
+    <string name="hs__question_unhelpful_message">No le resultó útil.</string>
+    <string name="hs__rate_button">Calificar</string>
+    <string name="hs__remove_screenshot_btn">Eliminar captura de pantalla</string>
+    <string name="hs__retry_faq_fetching_button">REINTENTAR</string>
+    <string name="hs__review_accepted_message">Ha aceptado la solicitud de reseña.</string>
+    <string name="hs__review_close_button">Cerrar</string>
+    <string name="hs__review_message">
+    Si te agrada nuestra aplicación, tómate un momento para calificarla en el App Store
+  </string>
+    <string name="hs__review_request_message">¿Quiere reseñar la aplicación en Play Store?</string>
+    <string name="hs__review_title">Califica nuestra aplicación</string>
+    <string name="hs__screenshot_add">Añadir</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Error adjuntando pantalla. Por favor, elija una imagen disponible localmente en el dispositivo.
+  </string>
+    <string name="hs__screenshot_limit_error">Tamaño de pantalla no debe exceder de %.2f MB</string>
+    <string name="hs__screenshot_remove">Eliminar</string>
+    <string name="hs__screenshot_sent_msg">Captura de pantalla enviada</string>
+    <string name="hs__screenshot_upload_error_msg">Error al cargar la captura de pantalla</string>
+    <string name="hs__search_footer">¿No encuentra lo que está buscando?</string>
+    <string name="hs__search_hint">Describa el problema</string>
+    <string name="hs__search_result_message">Preguntas que ya pueden tener tu respuesta</string>
+    <string name="hs__search_result_title">Recomendaciones</string>
+    <string name="hs__search_title">Buscar</string>
+    <string name="hs__select_a_question_message">Por favor, seleccione una pregunta de la izquierda</string>
+    <string name="hs__send_anyway">ENVIAR EN CUALQUIER CASO</string>
+    <string name="hs__send_msg_btn">Enviar</string>
+    <string name="hs__sending_fail_msg">Mensaje no enviado. Pulse para reintentarlo.</string>
+    <string name="hs__sending_msg">Enviando…</string>
+    <string name="hs__solved_btn">Sí, solucionado</string>
+    <string name="hs__starting_download">Comenzando la descarga…</string>
+    <string name="hs__submit_conversation_btn">Enviar</string>
+    <string name="hs__unsolved_btn">No, sin solucionar</string>
+    <string name="hs__username_blank_error">Por favor ingrese un nombre válido</string>
+    <string name="hs__username_hint">Su nombre</string>
+</resources>
