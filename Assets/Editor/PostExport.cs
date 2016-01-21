@@ -16,7 +16,7 @@ public class PostExport : MonoBehaviour
 	public static void OnPostprocessBuildiOS (string exportPath)
 	{
 		Debug.Log("[UCB Demos] OnPostprocessBuildiOS");
-		ProcessPostBuild(BuildTarget.iPhone,exportPath);
+		ProcessPostBuild(BuildTarget.iOS,exportPath);
 	}
 	#endif
 	
